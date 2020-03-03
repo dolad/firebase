@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+$content-width: 89%;
+$breakpoint: 600px;
+$nav-height: 70px;
+$nav-background: #ffffff;
+$nav-font-color: #2388c2;
+$link-hover-color: #ffffff;
+$hover-font-color:#ffffff;
+$font-family: 'Spartan';
+
+
+body{
+    font-family: $font-family;
+}

@@ -1,14 +1,19 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-
+import FileUploading from "../views/FileUploading.vue";
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
+    path: "/Home",
     name: "Home",
     component: Home
+  },
+  {
+    path:"/FileUploading",
+    name:"FileUploading",
+    component:FileUploading
   },
   {
     path: "/about",
